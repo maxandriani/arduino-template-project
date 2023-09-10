@@ -4,12 +4,11 @@
             "name": "Win32",
             
             "includePath": [
-                "${localappdata}\\Arduino15\\packages\\arduino\\hardware\\avr\\**",
-                "${localappdata}\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\libraries\\**",
+                "${localappdata}\\Arduino15\\packages\\**\\hardware\\**\\*(cores|libraries)\\**",
                 "${workspaceFolder}/**"
             ],
             "forcedInclude": [
-                "${localappdata}\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.5\\cores\\arduino\\Arduino.h"
+                "${localappdata}\\Arduino15\\packages\\**\\hardware\\**\\*(cores|libraries)\\**\\Arduino.h"
             ],
             "defines": [
                 "_DEBUG",
